@@ -1,7 +1,7 @@
 Package: quallmer
 Type: Package
 Title: Qualitative Analysis with Large Language Models
-Version: 0.3.0
+Version: 0.4.0
 Authors@R: c(
     person(
       "Seraphine F.", "Maerz",
@@ -30,23 +30,23 @@ Description: Tools for AI-assisted qualitative data coding using large language
     trail functionality for documenting coding workflows following Lincoln and
     Guba's (1985, ISBN:0803924313) framework for establishing trustworthiness
     in qualitative research.
-License: GPL-3
+License: GPL (>= 3)
 URL: https://quallmer.github.io/quallmer/
 Depends: R (>= 3.5.0), ellmer (>= 0.4.0)
-Imports: cli, dplyr, tidyr, digest, irr, lifecycle, rlang, stats,
+Imports: cli, digest, irr, lifecycle, rlang, stats, tibble, vctrs,
         yardstick
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.3
 Suggests: ggplot2, janitor, knitr, rmarkdown, testthat (>= 3.0.0),
-        kableExtra, mockery, quanteda, quanteda.tidy, tibble, withr
+        kableExtra, mockery, quanteda, quanteda.tidy, withr
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2026-02-12 10:15:40 UTC; smaerz
+Packaged: 2026-05-06 02:53:44 UTC; smaerz
 Author: Seraphine F. Maerz [aut, cre] (ORCID:
     <https://orcid.org/0000-0002-7173-9617>),
   Kenneth Benoit [aut] (ORCID: <https://orcid.org/0000-0002-0797-564X>)
 Maintainer: Seraphine F. Maerz <seraphine.maerz@unimelb.edu.au>
 Repository: CRAN
-Date/Publication: 2026-02-16 18:00:02 UTC
+Date/Publication: 2026-05-06 05:10:09 UTC
